@@ -1,7 +1,7 @@
-## import nltk
+import nltk
 
-## nltk.download('stopwords')
-## import spacy
+nltk.download('stopwords')
+import spacy
 import streamlit as st
 import pandas as pd
 import base64,random
