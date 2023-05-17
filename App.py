@@ -1,9 +1,9 @@
 import nltk
 
 nltk.download('stopwords')
-import en_core_web_sm
+import spacy
 
-nlp = en_core_web_sm.load()
+nlp = spacy.load("em_core_web_sm")
 import streamlit as st
 import pandas as pd
 import base64,random
